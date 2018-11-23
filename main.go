@@ -6,7 +6,7 @@ func main() {
 	fmt.Printf("Hello, world.\n")
 	fmt.Printf("This is golang test\n")
 	fmt.Print(sum(1, 2), "\n")
-	result := sum(12, 2)
+	result := sum(3, 2)
 	fmt.Printf("%v\n", result)
 }
 
