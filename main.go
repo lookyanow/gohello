@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Printf("Hello, world.\n")
+<<<<<<< HEAD
 	fmt.Printf("This is golang test\n")
 	fmt.Print(sum(1, 2), "\n")
 	result := sum(3, 2)
@@ -12,4 +13,8 @@ func main() {
 
 func sum(a int, b int) int {
 	return a + b
+}
+
+func mul(a int, b int) int {
+	return a * b
 }
